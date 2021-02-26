@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<link rel="stylesheet" href="project.css">
+</head>
+<body>
+<header>
+	<img src="good logo.png" style="height: 80px;">
+	<a class="a" href="contact.html" target="_blank">contact us</a>
+	<a class="a" href="about.html" target="_blank">about us</a>
+	<a class="a" href="gallery.html" target="_blank">gallery</a>
+	<a class="a" href="menu.html" target="_blank">menu</a>
+	<a class="a" href="pawan.html" target="_blank">home</a>
+</header>
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="best image.png" style="width:100%;height: 450px;">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="men image.jpeg" style="width:100%;height: 450px;">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="kulhad image.png" style="width:100%;height: 450px;">
+  </div>
+  <center>
+  <p class="dot"></p> 
+  <p class="dot"></p> 
+  <p class="dot"></p> 
+</center>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+ <h1 style="text-decoration: underline;color: brown;text-align: center;font-family:Colonna MT; ">ABOUT</h1>
+<h3 class="gupta">Chai Sutta Bar envisions to make chai more the go-to drink for all Indians. We have opened 200 outlets across India to cater to the growing demands of Hygienic tea. Our aim is to motivate our country’s youth to reduce cigarette consumption and take on a healthier alternative like chai to youth of chai reduce cigarette <center> consumption and take on a like chai.</center></h3>
+<div>
+<div class="box"><h1 class="pri">Unique Concept</h1>
+We are serious about our environment. Thus, we serve chai to our customers in a Kulhad.
+We are serious about our are environment customers in a Kulhad.</div>
+<div class="box"><h1 class="pri">Great Taste</h1>
+Our chai is fun and tasty because we make sure to use only top-quality milk. Also, the other ingredients we use for our chai is of superior quality.</div>
+<div class="box"><h1 class="pri">Restricting Smokin</h1>
+We want to take care of customers and mean only well. So, at Chai Sutta Bar, we prohibit smoking.</div>
+<div class="box"><h1 class="pri">Myriad of Choices</h1>
+Be it elaichi or masala chai, we have it all. When it comes to options, you are going to be spoilt for choices. At Chai Sutta Bar, we have a chai for every mood.</div>
+<div class="box"><h1 class="pri">Eco-friendly</h1>
+We believe we should all be responsible for our acts when it comes to our environment. So, we go to every length to do our part and keep the environment clean.</div>
+<div class="box"><h1 class="pri">Great Ambience</h1>
+You are going to enjoy the ambience we have at our chai bar. We have the best playlist that will keep you entertained and add to your delightful experience.</div>
+</div>
+
+<fieldset>
+<h1 class="h1">our story</h1>
+<img id="image" src="group image.jpg">
+<div class="text">
+<h2>We aim at becoming an inspirational food venture by serving<br><br> the goodness of chai, the Indian beverage on a bar table. At
+<br><br> Chai Sutta Bar we keep the prices affordable. To maintain <br><br> hygiene, we serve chai only in Kulhad.
+<br><br>
+Our ultimate aim to expand Chai Sutta Bar across India. To<br><br> date, we have 200 outlets to gratify the market demand for<br><br> hygienic tea that will motivate our customers to reduce their<br><br> cigarettes.</h2>
+</div>
+</fieldset>
+<br>
+<center><h1 style="text-decoration: underline;color: #996666;font-family: Cooper Black;">Our Branches</h1></center>
+<br>
+<h2 style="margin-left: 110px;">Indore , Ahemdabad, Bangalore, Chandigarh, Dehradun, Dewas, Jamnagar, Ujjain, Bhopal, bilaspur, Itarsi,<center>Satna, Indore, Jaipur, Nagpur, Delhi,</center></h2>
+<br>
+<br>
+<center><h1 style="color: brown;text-decoration: underline;">OWNER</h1></center>
+<table>
+	<tr>
+		<td>
+<div class="container">
+<img  class="image" src="dikshamem.jpg" style=" float: right;width: 230px;height: 300px;">
+<div class="overlay">
+	<div class="pawn">Owner- DeekshaPatel</div>
+  </div>
+</div></td>
+<td>
+<div class="container">
+<img class="image" src="amitpatel.jpg" style="float: left;width: 230px;height: 300px;">
+<div class="overlay">
+	<div class="pawn">Owner- Amitpatel</div>
+  </div>
+</div>
+</td>
+<td>
+<div class="container">
+<img class="image" src="somyamam.jpg" style="float: center;">
+<div class="overlay">
+	<div class="pawn">Adviser- Somyajain</div>
+  </div>
+</div>
+</td>
+</tr>
+</table>
+<br>
+<br>
+<center><h1 style="text-decoration: underline;color: #663333;font-family: Cooper Black;">Media Gallery</h1>
+<h1><b><u>Chaisuttabar</u></b></h1></center>
+<br>
+<marquee direction="right" behavior="alternate">
+<img class="vai" src="img1.jpeg" style="width: 200px;height: 300px;">
+<img class="vai" src="img2.jpeg" style="width: 250px;height: 280px;">
+
+<img class="vai" src="img3.jpeg" style="width: 200px;height: 300px;">
+
+<img class="vai" src="img4.jpeg" style="width: 200px;height: 300px;">
+
+<img class="vai" src="img5.jpeg" style="width: 200px;height: 300px;">
+
+<img class="vai" src="img1.jpeg" style="width: 200px;height: 300px;">
+
+<img class="vai" src="img2.jpeg" style="width: 250px;height: 280px;">
+
+<img class="vai" src="img3.jpeg" style="width: 200px;height: 300px;">
+
+<img class="vai" src="img4.jpeg" style="width: 200px;height: 300px;">
+
+<img class="vai" src="img5.jpeg" style="width: 200px;height: 300px;">
+</marquee>
+</div>
+<br>
+<div id="div">
+	<div id="bor">
+<center><img src="1.png" style="width: 120px;height: 110px;"></center>
+<br>
+<h1 style="color: white;">10000+<br><span style="font-size: 20px;line-height: 0px;">Daily kulhad of Happiness</h1>
+</div>
+<div id="bor">
+	<center><img src="2.png" style="width: 100px;height: 100px;"></center>
+	<br>
+	<br>
+	<br>
+	<h1 style="color: white;">60+<br><span style="font-size: 20px;line-height: 0px;">Daily kulhad of Happiness</h1>	
+	</div>
+	<div id="bor">
+<img src="3.png" style="width: 100px;height: 100px;">
+<br>
+<br>
+<br>
+	<h1 style="color: white;">25+<br><span style="font-size: 20px;line-height: 0px;">Daily kulhad of Happiness</h1>	
+	</div>
+	<div id="bor">
+<img src="4.png" style="width: 100px;height: 100px;">
+<br>
+	<h1 style="color: white;">100+<br><span style="font-size: 20px;line-height: 0px;">Daily kulhad of Happiness</h1>	
+	</div>
+</div>
+<fieldset id="pg">
+	<img id="gp" src="gupta.gif" width="280px" height="280px">
+
+	<img id="gp" src="aa.gif" width="280px" height="280px">
+
+	<img id="gp" src="name.gif" width="280px" height="280px">
+
+	<img id="gp" src="giphy.gif" width="280px" height="280px">
+		
+</fieldset>
+<footer>
+	<img src="logo.png">
+	<div class="imag">
+	<h3 style="color: white;">Our mission is to become an inspirational food venture<br>where goodness of Indian tradition is served on the bar<br> table by providing high quality hygienic beverages in,br
+		<br> Kulhad at affordable prices. We want to expand Chai<br>Sutta Bar all over India by opening at least 200 outlets<br> to fulfill the market demand of hygienic tea which would<br> not only motivate youth to reduce cigarette consumption<br> but,br
+		only motivate youth to reduce cigarette consump-<br>tion butalso it will uplift the people who work with us.<br> to fulfill the market demand of hygienic tea which would<br> not only motivate youth to reduce cigarette consumption<br> but,br
+		only motivate youth to reduce cigarette consump-<br>tion butalso it will uplift the people who work with us.<br> to fulfill the market demand of hygienic tea which would<br> not only motivate youth to reduce cigarette consumption.<br></h3>
+	</div>
+	<div class="link">
+	
+	<h4 style="font-size: 30px;text-decoration: underline;margin-left: 30px;">Link</h4>
+	<a href="#" style="color: white;line-height: 100px;font-size: 20px;margin-top: 10px;">Service</a>
+	<a href="#" style="color: white;line-height: 150px;font-size: 20px;margin-top: 20px;">Team</a>
+	<a href="#" style="color: white;line-height: 200px;font-size: 20px;margin-top: 30px;">Privacy</a>
+	<a href="#" style="color: white;line-height: 250px;font-size: 20px;margin-top: 40px;">CSB Care</a>
+	<a href="contact.html" target="_blank" style="color: white;line-height: 300px;font-size: 20px;margin-top: 50px;margin-bottom: 0px;">Contact</a>
+</div>
+	<div class="text">
+		<video  width="380px"height="310px;border-radius40px;"controls>
+			<source src="vedio.mp4"type="video/mp4">
+				<source src="video.ogg" type="vedio/ogg">
+		</video>
+	</div>
+</footer>
+</body>
+</html>
